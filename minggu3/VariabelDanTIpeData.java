@@ -3,7 +3,7 @@ package minggu3;
 public class VariabelDanTIpeData {
     public static void main(String[] args) {
         String salahSatuHobbySayaAdalah = "Bermain petak umpet";
-        boolean 0isPandai = true;
+        boolean isPandai = true;
         char jenisKelamin = 'L';
         byte _umurSayaSekarang = 20;
         double $ipk = 3.24, tinggi = 1.78;
