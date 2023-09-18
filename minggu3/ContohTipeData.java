@@ -8,7 +8,7 @@ public class ContohTipeData {
         float suhu = 60.50f;
         double berat = 0.546;
         long saldo = 15000000;
-        int angkaDesimal = 0x10;
+        int angkaDesimal = 0xA510;
         System.out.println("Golongan darah\t\t\t\t\t\t: "+(byte)golonganDarah);
         System.out.println("Jarak\t\t\t\t\t\t\t\t: "+jarak);
         System.out.println("Jumlah penduduk dalam satu dusun\t: "+jumlahPendudukDalamSatuDusun);
