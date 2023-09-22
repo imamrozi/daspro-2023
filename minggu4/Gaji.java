@@ -5,19 +5,17 @@ import java.util.Scanner;
 public class Gaji {
      public static void main (String []args) {
         Scanner input = new Scanner (System.in);
-        int jmlMasuk, JmlTdkMasuk, TotGaji, gaji, potGaji;
         
-        System.out.println("Masukkan Jumlah Gaji Anda Per Hari Masuk Kerja");
-        gaji = input.nextInt();
-        System.out.println("Masukkan Jumlah Potongan Gaji Anda Per Hari Tidak Masuk Kerja");
-        potGaji = input.nextInt();        
-        System.out.println("Masukkan Jumlah Hari Masuk Kerja Anda ");
-        jmlMasuk=input.nextInt();
-        System.out.println("Masukkan Jumlah Hari Tidak Masuk Kerja Anda ");
-        JmlTdkMasuk=input.nextInt();
+        int numAttendance, numAbsence, totalSalary;
+        int salary=40000, salaryDeduction=25000;
+        
+        System.out.println("Input attendance number: ");
+        numAttendance = input.nextInt();
+        System.out.println("Input absence number: ");
+        numAbsence = input.nextInt();        
 
-        TotGaji=(jmlMasuk*gaji)-(JmlTdkMasuk*potGaji);
+        totalSalary=(numAttendance*salary)-(numAbsence*salaryDeduction);
 
-        System.out.println("Gaji yang Anda terima adalah "+TotGaji);
+        System.out.println("Total salary: "+totalSalary);
     }
 }
