@@ -17,6 +17,11 @@ public class PraktikumPemilihan2 {
         String message = total < 65 ? "Remidi" : "Tidak remidi";
         System.out.println("Nilai akhir = " + total + " sehingga " + message);
 
+        String password = "83649";
+        if(password.equals("12345")){
+
+        }
+
         String predikat=""; 
         if (total<=39) {
             predikat="E";
