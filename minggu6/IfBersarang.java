@@ -7,9 +7,11 @@ public class IfBersarang {
            System.out.println("Kondisi true");
             System.out.println("x = "+x);
            System.out.println("y = "+y);
-        }else
+        }else{
             System.out.println("Kondisi false");
             System.out.println("x = "+x);
             System.out.println("y = "+y);
+        }
+            
     }
 }
